@@ -1,24 +1,63 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Signika+Negative:wght@500;600&display=swap');
+body{
+    font-family:  'Signika Negative', sans-serif; 
+   margin: auto;
+   
+    
+}
 .header{
     text-align: center;
     color: black;
 }
 .discription{
     text-align: center;
-    color: black;
+    color:black;
+    font-size: larger;
 }
 
 .container{
     display: flex;
-    flex-direction: column;
-    background-color: green;
+flex-direction: column;
+    max-width: 80vh;
+    height: 99vh;
+    margin: auto;
+   font-size: 18px;
+    background-color: #0c4a6e;
     color: black;
+    text-align: center;
 }
 
 .class-table{
     padding: 1rem;
     margin: 1rem;
+    border: 1px solid white;
     color: black;
     text-align: center;
+  
+}
+
+.footer{
+border-radius: 1rem;
+margin-top: auto;
+   padding: 1%;
+  
+    background-color: #e5e7eb;
+}
+
+.list-non-bullet{
+    list-style: none;
+
+   
+}
+
+.list-item-inline{
+    display: inline;
+
+margin: 1rem;
+
+ font-size: 17px;
+ text-align: center;
+ padding: 1rem 1rem;
+
+
 }
