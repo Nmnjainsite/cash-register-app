@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="./main.css">
     <title>Cash Register Manager</title>
 </head>
-<div class="container">
+
     <h1 class="header">Cash Register Manager</h1>
     <p class="discription">Enter the bill amount and cash given by customer and know minimum number of notes to return</p>
-    <label for="bill-amount">Bill amount</label>
+    <div class="container">
+    <label for="bill-amount" >Bill amount</label>
     <input id="bill-amount"type="text" >
     <label for="cash-given">Cash Given</label>
     <input id="cash-given"type="text">
     <button id="check-button" style="cursor: pointer; background-color: #e5e7eb; ">check</button>
     <p id="error-message"></p>
-    <table class="class-table">
-<caption style="padding:1rem">
+    <table class="class-table" >
+<caption>
     Return Change
 </caption>
 
@@ -44,7 +45,7 @@
 </tr>
 
     </table>
-
+</div>
 <footer class="footer" >
     <div class="footer-header">Find me here👇</div>
     <ul class="list-non-bullet" >
@@ -67,7 +68,7 @@
         </li>
     </ul>
 </footer>
-</div>
+
 <body>
     <script src="index.js" type="text/javascript"></script>
 </body>
