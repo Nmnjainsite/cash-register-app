@@ -7,9 +7,11 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 const availableNotes = [2000,500,100,20,10,5,1];
 checkButton.addEventListener("click", function validateBillAndCashAmount () {
 hideMessage();
-    if (billAmount.value > 0) {
-        if(cashGiven.value >= billAmount.value) {
-const amountToBeReturned = cashGiven.value - billAmount.value;
+var bill = Math.floor(billAmount.value);
+var cash = Math.floor(cashGiven.value)
+    if (bill > 0) {
+        if(cash >= bill) {
+const amountToBeReturned = cash- bill;
 calculateChange(amountToBeReturned);
         } else {
            showMessage ("Do you wanna wash plates?") ;
